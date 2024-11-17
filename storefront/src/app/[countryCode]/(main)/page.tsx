@@ -25,11 +25,23 @@ export default async function Home({
 
   return (
     <>
-      <Hero />
-      <div className="py-12">
-        <ul className="flex flex-col gap-x-6">
-          <FeaturedProducts collections={collections} region={region} />
-        </ul>
+      <div className="flex border border-gray-300">
+        <div className="w-3/10 border-r border-gray-300 p-4">
+          Contenido izquierda
+        </div>
+        <div className="w-7/10 flex flex-col">
+          <div className="h-[30%] border-b border-gray-300 p-4">
+            Contenido fila superior
+          </div>
+          <div className="flex-1 p-4">
+            <Hero />
+            <div className="py-12">
+              <ul className="flex flex-col gap-x-6">
+                <FeaturedProducts collections={collections} region={region} />
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )
