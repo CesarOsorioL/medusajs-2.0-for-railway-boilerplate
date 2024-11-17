@@ -34,7 +34,7 @@ export default async function Home({
             Contenido fila superior
           </div>
           <div className="flex-1 w-full p-4">
-            <Hero />
+            {/* <Hero /> */}
             <div className="py-12">
               <ul className="flex flex-col gap-x-6">
                 <FeaturedProducts collections={collections} region={region} />
