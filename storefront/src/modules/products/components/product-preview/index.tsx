@@ -42,13 +42,15 @@ export default async function ProductPreview({
           <Text className="text-ui-fg-subtle font-bold" data-testid="product-title">
             {product.title} Tasty Bites
           </Text>
-          <Text className="text-ui-fg-subtle text-[rgba(162,101,1,0.8)]">
-            Medellin
-          </Text>
           <div className="flex items-center gap-x-2">
             {cheapestPrice && <PreviewPrice price={cheapestPrice} />}
           </div>
         </div>
+        <div>
+          <Text className="text-ui-fg-subtle text-[rgba(162,101,1,0.8)]">
+              Medellin
+            </Text>
+          </div>
       </div>
     </LocalizedClientLink>
   )
