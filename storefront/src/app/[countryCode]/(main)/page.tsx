@@ -25,11 +25,11 @@ export default async function Home({
 
   return (
     <>
-      <div className="flex border border-gray-300">
+      <div className="flex">
         <div className="w-3/10 border-r border-gray-300 p-4">
           Contenido izquierda
         </div>
-        <div className="w-7/10 flex flex-col">
+        <div className="w-full flex flex-col">
           <div className="h-[30%] border-b border-gray-300 p-4">
             Contenido fila superior
           </div>
