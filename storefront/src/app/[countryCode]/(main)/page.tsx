@@ -26,7 +26,7 @@ export default async function Home({
   return (
     <>
       <div className="flex">
-        <div className="w-3/10 border-r border-gray-300 p-4">
+        <div className="w-3/10 border-r border-gray-300 p-4 hidden md:block">
           Contenido izquierda
         </div>
         <div className="w-full flex flex-col">
