@@ -33,7 +33,7 @@ export default async function Home({
           <div className="h-[30%] border-b border-gray-300 p-4">
             Contenido fila superior
           </div>
-          <div className="flex-1 p-4">
+          <div className="flex-1 w-full p-4">
             <Hero />
             <div className="py-12">
               <ul className="flex flex-col gap-x-6">
