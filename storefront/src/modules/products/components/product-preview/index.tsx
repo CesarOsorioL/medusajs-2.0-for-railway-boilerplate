@@ -53,7 +53,7 @@ export default async function ProductPreview({
           </svg>
           
           <span className="text-ui-fg-subtle text-[rgba(162,101,1,0.8)]">
-            Medellin
+          {product.subtitle}
           </span>
         </div>
       </div>
