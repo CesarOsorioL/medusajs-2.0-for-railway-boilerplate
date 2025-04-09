@@ -16,7 +16,7 @@ const Hero = () => {
            className="object-cover object-center"
            priority
           />
-          {/* 
+          
            <span>
           <Heading
             level="h1"
@@ -31,7 +31,7 @@ const Hero = () => {
             Need help customizing your store?
           </Heading> 
         </span>
-        */}
+       
         {/* <a
           href="https://funkyton.com/medusajs-2-0-is-finally-here/"
           target="_blank"
