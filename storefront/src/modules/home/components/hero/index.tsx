@@ -11,7 +11,7 @@ const Hero = () => {
       if (width < 768) {
         setImageSrc("/mobile-banner.png")
       } else if (width < 1200) {
-        setImageSrc("/images/banner/banner-tablet.jpg")
+        setImageSrc("/banner.png")
       } else {
         setImageSrc("/banner.png")
       }
