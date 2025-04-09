@@ -13,7 +13,7 @@ const Hero = () => {
       } else if (width < 1200) {
         setImageSrc("/banner.png")
       } else {
-        setImageSrc("/banner.png")
+        setImageSrc("/big-banner.png")
       }
     }
 
