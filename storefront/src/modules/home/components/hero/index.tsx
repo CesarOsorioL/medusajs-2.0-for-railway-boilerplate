@@ -6,7 +6,8 @@ const Hero = () => {
     <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
       <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
         <span>
-          <Heading
+          Change
+          {/* <Heading
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
@@ -17,7 +18,7 @@ const Hero = () => {
             className="text-3xl leading-10 text-ui-fg-subtle font-normal"
           >
             Need help customizing your store?
-          </Heading>
+          </Heading> */}
         </span>
         <a
           href="https://funkyton.com/medusajs-2-0-is-finally-here/"
