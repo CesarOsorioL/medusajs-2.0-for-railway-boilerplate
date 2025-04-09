@@ -6,14 +6,15 @@ import Image from "next/image"
 const Hero = () => {
   return (
     <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
-      <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
+      {/* <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6"> */}
         <Image
             src="/banner.png" // Asegúrate de que la imagen esté en la carpeta /public
             alt="Banner Image"
             fill
             // width={300}
             // height={200}
-            className="rounded-lg shadow-md"
+           className="object-cover object-center"
+           priority
           />
           {/* 
            <span>
@@ -39,7 +40,7 @@ const Hero = () => {
             Visit the tutorial
           </h1>
         </a> */}
-      </div>
+      {/* </div> */}
     </div>
   )
 }
