@@ -26,7 +26,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className="h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle sm:h-[20vh]">
+    <div className="h-[20vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle sm:h-[75vh]">
       <Image
         src={imageSrc} // Ensure the image is placed in the /public folder
         alt="Banner Image"
