@@ -10,8 +10,9 @@ const Hero = () => {
         <Image
             src="/banner.png" // Asegúrate de que la imagen esté en la carpeta /public
             alt="Banner Image"
-            width={300}
-            height={200}
+            fill
+            // width={300}
+            // height={200}
             className="rounded-lg shadow-md"
           />
           {/* 
